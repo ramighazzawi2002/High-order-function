@@ -36,11 +36,8 @@ console.log(powerOfTwoUsingMap([1, 2, 3]));
 const isOddOrEven = arr => {
   return arr.map(element => {
     if (typeof element !== "number") return "N/A";
-    else if (element % 2 === 0) {
-      return "even";
-    } else {
-      return "odd";
-    }
+    else if (element % 2 === 0) return "even";
+    else return "odd";
   });
 };
 
